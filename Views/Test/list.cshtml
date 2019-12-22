@@ -1,0 +1,21 @@
+@{
+    Layout = "_Layout";
+}
+@model System.Collections.Generic.IList<WebAppDotNet.Model.Student>
+
+<div class="container top-spacer">
+    <h4 class="alert alert-danger">List of students</h4>
+    <table class="table striped-table">
+        <tr>
+            <th>ID</th> <th>Name</th> <th>Score</th>
+        </tr>
+
+        @foreach( var student in Model) {
+            <tr>
+                <td>@student.Id</td>
+                <td>@student.Name</td>
+                <td>@student.Score</td>
+            </tr>
+        }
+    </table>
+</div>
