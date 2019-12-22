@@ -12,7 +12,15 @@ namespace AspNetCore
     using Microsoft.AspNetCore.Mvc;
     using Microsoft.AspNetCore.Mvc.Rendering;
     using Microsoft.AspNetCore.Mvc.ViewFeatures;
+#nullable restore
+#line 1 "C:\Users\taouf\dot_Net_Projets\WebAppDotNet\Views\_ViewImports.cshtml"
+using WebAppDotNet;
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"ec37cdd58c2e5610ffd8fe1286977e9e6a5aa770", @"/Views/Test/index.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"dce53f747642c8283019616d8154198e3430a8f9", @"/Views/_ViewImports.cshtml")]
     public class Views_Test_index : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<System.Collections.Generic.IList<string>>
     {
         #pragma warning disable 1998
